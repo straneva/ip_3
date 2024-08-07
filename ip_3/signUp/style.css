@@ -1,0 +1,176 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+/*--------------------*/
+
+body {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main {
+	min-height: 100%;
+	overflow: hidden;
+	/* display: flex;
+	flex-direction: column; */
+
+}
+
+.container {
+	flex: 1 1 auto;
+	max-width: 1180px;
+	margin: 0px auto;
+}
+
+@media (max-width:1180px) {
+	.container {
+		max-width: 970px;
+	}
+}
+
+@media (max-width:992px) {
+	.container {
+		max-width: 750px;
+	}
+}
+
+@media (max-width:768px) {
+	.container {
+		max-width: none;
+	}
+}
+
+.header {
+
+	background-color: rgba(79, 117, 18, 0.747);
+	position: sticky;
+	/* margin: -20px 0px -90px 0px; */
+}
+
+.content {}
+
+.header__row {
+	display: flex;
+}
+
+.header__body {
+	color: #000000;
+}
+
+.header__title {
+	font-size: 45px;
+	font-weight: 500;
+	margin: 50px 100px 20px 100px;
+
+}
+
+.signup {}
+
+.signupForm {
+
+	max-width: 600px;
+	margin: auto;
+	background: white;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.708);
+}
+
+.item__info {}
+
+.signupForm {
+	padding-right: 20px;
+}
+
+.signup__text {}
+
+.footer {}
+
+.footer__row {}
+
+.footer__image {}
